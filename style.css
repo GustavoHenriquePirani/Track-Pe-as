@@ -1,0 +1,169 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-bg{
+    background: #011229;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 20px;
+  }
+
+.header-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 15px;
+}
+
+.header-menu li{
+    list-style: none;
+}
+
+.header-menu a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "poppins";
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.header-menu a:hover{
+    text-decoration: none;
+    color: orange;
+}
+
+.header-menu a:after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background: orange;
+    margin-top: 4px;
+    transition: 00.3s;
+    position: absolute;
+}
+
+.header-menu a:hover:after{
+    width: 100%;
+}
+
+.logo{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Rubik Distressed";
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sobre-bg, .contato-bg{
+    background: #011229;
+}
+
+.sobre, .contato{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.sobre h1{
+    color: orange;
+    font-family: "Roboto";
+    font-size: 40px;
+}
+
+.sobre p{
+    padding-top: 20px;
+    color: #fff;
+    margin-top: 10px;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.sobre img{
+    max-width: 500px;
+    height: auto;
+}
+
+.ponto{
+    color: #fff;
+}
+
+#parallax{
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./img/marcas.png);
+    background-position: left top no-repeat;
+    margin-top: 60px;
+}
+
+.marcas{
+   margin-top: 80px;
+   max-width: 1300px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.trabalho{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 100px;
+}
+
+.mapa{
+    padding: 60px 0px;
+}
+
+.contato-bg h2{
+    color: orange;
+    font-family: "Roboto";
+    font-size: 40px;
+    padding-top: 60px;
+    text-transform: none;
+    margin-top: 50px;
+}
+
+.contato-lista li{
+    color: #fff;
+    list-style: none;
+    font-family: "poppins";
+    text-transform: none;
+    padding: 10px 0px;
+}
+
+.contato-lista h1{
+    font-size: 26px;
+    text-align: start;
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#011229;
+    text-align: center;
+    color: #fff;
+}
